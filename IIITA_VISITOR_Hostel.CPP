@@ -1,5 +1,5 @@
 //C++ OOP PROJECT
-//IIITA VISITOR HOSTEL:By Ahad
+//IIITA VISITOR HOSTEL
 #include<iostream>
 #include<conio.h>
 #include<fstream>
@@ -415,9 +415,7 @@ if(!f1)
  else
  {
   int temp=0;
-  f1.read((char*)&h1,sizeof (visitor_hostel));
-  while(f1)
-
+   while(!f1.eof())
   {
 
   f1.read((char*)&h1,sizeof(visitor_hostel));
